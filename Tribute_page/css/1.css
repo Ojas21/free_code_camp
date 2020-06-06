@@ -1,0 +1,48 @@
+*{
+  box-sizing: border-box;
+  background-color: gray;
+}
+
+#main{
+  font-family:cursive;
+  text-align: center;
+}
+#title{
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding:10px;
+}
+#title2{
+  text-align: center;
+
+}
+#img-div{
+  float: center;
+  padding:auto;
+  height: auto;
+}
+#image{
+  text-align: center;
+  max-width:100%;
+  height: auto;
+  transform: scale(1);
+}
+
+#img-caption{
+  color: green;
+  padding-bottom: 30px;
+}
+#img-caption:hover{
+  color: blue;
+}
+#tribute-info{
+  padding: 20px;
+  margin: 30px;
+}
+#tribute-link{
+  color: blue;
+}
+#tribute-link:hover{
+  color: green;
+}
