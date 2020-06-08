@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Survey Form</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/form.css">
+</head>
+<body>
+	<h1 id="title">Comic Surey Form</h1>
+	<p id="description"><u>To know your comic preferences</u></p>
+	<form id="survey-form" action="/submit comic preference">
+		<div id="bp">
+
+		<label for="NAME" id="name-label">Name
+		    <input id="name" type="text" placeholder="xyz" name="name-email-number" required="">
+	    </label>
+	    <br>
+
+		<label for="Email-Id" id="email-label">Email-ID
+			<input type="text" id="email" placeholder="@xyz.com"  name="name-email-number" required="">
+		</label>
+		<br>
+
+		<label for="Number" id="number-label">Number
+			<input id="number" type="number" max="9999999999" min="0000000000" name="name-email-number" placeholder="00000"  required="">
+		</label>
+		<br>
+
+		<div class="bg">
+		    <label for="brand" >Which Comic brand do you prefer?
+		    </label>
+		    <br>
+		    <select name="comic" id="dropdown" required="" placeholder="Choose">
+                <option value="marvel">Marvel</option>
+		    	<option value="DC">DC</option>
+		    	<option value="Image">Image</option>
+		    </select>
+		</div>
+		<div class="bg">Which is your favourite Writer?<br>
+		   	<label>
+		        <input type="radio" value="Jim-Lee">Jim-Lee
+		    </label>
+		    <br>
+		    <label>
+		        <input type="radio" value="Stan-Lee">Stan-Lee
+		    </label>
+		    <br>
+		    <label>    
+		        <input type="radio" value="Geoff-Johns">Geoff-Johns
+		    </label>
+		    <br>
+		    <label>    
+		        <input type="radio" name="">Alan-Moore
+		    </label>
+		</div>
+		    <br>
+		<div class="bg">Which Superpowers do you like?</div>
+		
+		    
+
+		 <label id="check">
+		        <input type="checkbox" name="flying" value="flying">Flying
+		    </label>
+		    <br>
+		    
+
+		    <label id="check">
+		    	<input value="invisibilty" type="checkbox" name="invisibilty">Invisibilty
+
+		    </label>
+		    <br>
+		    
+
+		    <label id="check">    
+		        <input value="Super-strength" type="checkbox" name="Super-strength">Super-Strength
+		    </label>
+		    <br>
+		    
+
+		    <label id="check">    
+		        <input value="SuperSpeed" type="checkbox" name="SuperSpeed">Super-Speed
+		    </label>
+		    <br>
+	
+	    </div>
+
+
+
+
+
+		<button id="submit">submit</button>
+
+
+
+
+
+
+	</form>
+
+
+
+</body>
+</html>
